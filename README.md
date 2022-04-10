@@ -1,7 +1,7 @@
 # Project_FastApi
 АПИ для склада
 
-### Запуск проекта в dev-режиме
+### Запуск и настройка проекта
 - Сначала клонировать репозиторий и перейти в него в командной строке:
 
 ```
@@ -32,6 +32,19 @@ python main.py
 
 ## Примеры запроса
 
+### Получение Токена
+
+`GET /users/`
+    curl -i -H 'Accept: application/json' http://0.0.0.0:8000/auth/
+
+### Response
+
+    {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.    eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoxNjQ5NjIyMzg2fQ.qNBKd5EFtlmwuK_WYiPiUJNq60EMXm0l2Fqv8B5YVTU",
+    "token_type": "Bearer"
+    }
+
+
 ### GET
 
 `GET /users/`
@@ -39,7 +52,6 @@ python main.py
     curl -i -H 'Accept: application/json' http://0.0.0.0:8000/users/
 
 ### Response
-    [
     {
         "id": "1",
         "name": "naem",
@@ -52,8 +64,23 @@ python main.py
         "email": "email@example.com",
         "role": "buyer"
     }
-    ]
 
-### GET ID
 
-`GET /reviews/<
+### GET
+
+`GET /apples/`
+
+    curl -i -H 'Accept: application/json' http://0.0.0.0:8000/apples/
+
+### Response
+    {
+        "id": "1",
+        "name": "name",
+        "description": "text"
+    },
+    {
+        "id": "2",
+        "name": "name",
+        "description": "text"
+    }
+
