@@ -1,5 +1,4 @@
 # Project_FastApi
-Project in FastApi
 АПИ для склада
 
 ### Запуск проекта в dev-режиме
@@ -40,20 +39,20 @@ python main.py
     curl -i -H 'Accept: application/json' http://0.0.0.0:8000/users/
 
 ### Response
-[
-  {
-    "id": "1",
-    "name": "naem",
-    "email": "email@example.com",
-    "role": "salesman"
-  },
-  {
-    "id": "2",
-    "name": "name",
-    "email": "email@example.com",
-    "role": "buyer"
-  }
-]
+    [
+    {
+        "id": "1",
+        "name": "naem",
+        "email": "email@example.com",
+        "role": "salesman"
+    },
+    {
+        "id": "2",
+        "name": "name",
+        "email": "email@example.com",
+        "role": "buyer"
+    }
+    ]
 
 ### GET ID
 
