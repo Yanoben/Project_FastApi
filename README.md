@@ -35,6 +35,7 @@ python main.py
 ### Получение Токена
 
 `GET /users/`
+
     curl -i -H 'Accept: application/json' http://0.0.0.0:8000/auth/
 
 ### Response
