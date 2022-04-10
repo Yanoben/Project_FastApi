@@ -41,7 +41,7 @@ python main.py
 ### Response
 
     {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.    eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoxNjQ5NjIyMzg2fQ.qNBKd5EFtlmwuK_WYiPiUJNq60EMXm0l2Fqv8B5YVTU",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJeyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoxNjQ5NjIyMzg2fqNBKd5EFmwuK_WYiPiUJNq60EMXm0l2Fqv8B5YVTU",
     "token_type": "Bearer"
     }
 
