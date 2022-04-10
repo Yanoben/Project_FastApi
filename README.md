@@ -55,7 +55,7 @@ python main.py
 ### Response
     {
         "id": "1",
-        "name": "naem",
+        "name": "name",
         "email": "email@example.com",
         "role": "salesman"
     },
