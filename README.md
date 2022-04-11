@@ -30,6 +30,13 @@ docker-compose -f docker-compose.yaml up
 python main.py
 ```
 
+## Docs and Redoc
+    http://0.0.0.0:8000/docs
+
+    http://0.0.0.0:8000/redoc
+
+
+
 ## Примеры запроса
 
 ### Получение Токена
